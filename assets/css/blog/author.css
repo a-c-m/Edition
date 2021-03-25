@@ -7,19 +7,28 @@
     text-transform: uppercase;
 }
 
+.author-list .author-meta {
+    margin-top: -0.5rem;
+}
+
+.author-name {
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
 .author-social {
     justify-content: center;
     margin-top: 2.5rem;
 }
 
-.author-list {
-    display: flex;
+.author-list a {
+    display: inline-flex;
 }
 
 .author-list .author-image-placeholder {
     flex-shrink: 0;
     overflow: hidden;
-    margin: 0 -4px;
+    margin: 0 5px;
     width: 54px;
     border: 2px solid var(--white-color);
     border-radius: 50%;

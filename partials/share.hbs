@@ -1,0 +1,32 @@
+<div class="share">
+    {{!-- <a class="share-link share-link-facebook"
+        href="https://www.facebook.com/sharer.php?u={{url absolute="true"}}"
+        target="_blank" rel="noopener noreferrer">
+        {{> icons/facebook}}
+        Share
+    </a> --}}
+    <a class="share-link share-link-twitter"
+        href="https://twitter.com/intent/tweet?url={{url absolute="true"}}&text={{encode title}}"
+        target="_blank" rel="noopener noreferrer">
+        {{> icons/twitter}}
+        Tweet
+    </a>
+    <a class="share-link share-link-linkedin"
+        href="http://www.linkedin.com/shareArticle?mini=true&url={{url absolute="true"}}&title={{encode title}}"
+        target="_blank" rel="noopener noreferrer">
+        {{> icons/linkedin}}
+        Share
+    </a>
+    <a class="share-link share-link-ycombinator"
+        href="https://news.ycombinator.com/submitlink?u={{url absolute="true"}}&t={{encode title}}"
+        target="_blank" rel="noopener noreferrer">
+        {{> icons/ycombinator}}
+        Share
+    </a>
+    <a class="share-link share-link-reddit"
+        href="http://www.reddit.com/submit?url={{url absolute="true"}}&title={{encode title}}"
+        target="_blank" rel="noopener noreferrer">
+        {{> icons/reddit}}
+        Share
+    </a>
+</div>

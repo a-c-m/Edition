@@ -36,3 +36,19 @@
 .share-link-twitter {
     background-color: var(--twitter-color);
 }
+
+.share-link-reddit {
+    background-color: var(--reddit-color);
+}
+
+.share-link-linkedin {
+    background-color: var(--linkedin-color);
+}
+
+.share-link-ycombinator {
+    background-color: var(--ycombinator-color);
+}
+
+.share-link-github {
+    background-color: var(--github-color);
+}

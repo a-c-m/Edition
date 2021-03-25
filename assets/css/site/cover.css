@@ -42,7 +42,7 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
-    max-width: calc(720px + 8vw);
+    max-width: calc(640px + 8vw);
     text-align: center;
 }
 

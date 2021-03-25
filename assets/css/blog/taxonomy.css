@@ -2,6 +2,10 @@
     margin-bottom: 6vmin;
 }
 
+.taxonomy .single-title {
+    text-transform: uppercase;
+}
+
 .taxonomy-media {
     overflow: hidden;
     margin: 0 auto 3rem;

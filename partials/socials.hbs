@@ -1,0 +1,29 @@
+<div class="social">
+    <a class="social-item social-item-linkedin"
+        href="https://www.linkedin.com/in/alexmcfadyen/" target="_blank"
+        rel="noopener noreferrer" aria-label="LinkedIn">
+        {{> icons/linkedin}}
+    </a>
+
+    <a class="social-item social-item-github"
+        href="hhttps://github.com/a-c-m" target="_blank"
+        rel="noopener noreferrer" aria-label="Github">
+        {{> icons/github}}
+    </a>
+
+    {{#if @site.facebook}}
+        <a class="social-item social-item-facebook"
+            href="{{facebook_url @site.facebook}}" target="_blank"
+            rel="noopener noreferrer" aria-label="Facebook">
+            {{> icons/facebook}}
+        </a>
+    {{/if}}
+
+    {{#if @site.twitter}}
+        <a class="social-item social-item-twitter"
+            href="{{twitter_url @site.twitter}}" target="_blank"
+            rel="noopener noreferrer" aria-label="Twitter">
+            {{> icons/twitter}}
+        </a>
+    {{/if}}
+</div>
