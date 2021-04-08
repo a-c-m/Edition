@@ -22,20 +22,20 @@ window.addEventListener('scroll', function () {
         if (timeout) {
             window.cancelAnimationFrame(timeout);
         }
-        timeout = window.requestAnimationFrame(portalButton);
+        // timeout = window.requestAnimationFrame(portalButton);
     }
 });
 
-function portalButton() {
-    'use strict';
-    st = window.scrollY;
+// function portalButton() {
+//     'use strict';
+//     st = window.scrollY;
 
-    if (st > 300) {
-        body.classList.add('portal-visible');
-    } else {
-        body.classList.remove('portal-visible');
-    }
-}
+//     if (st > 300) {
+//         body.classList.add('portal-visible');
+//     } else {
+//         body.classList.remove('portal-visible');
+//     }
+// }
 
 function cover() {
     'use strict';
